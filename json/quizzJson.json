@@ -1,0 +1,146 @@
+{
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "rédacteur": "Nawal Kajtou",
+  "thème": "Json",
+  "difficulté": 3,
+  "quizz": {
+    "débutant": [
+      {
+        "id": 1,
+        "question": "Que signifie JSON ?",
+        "propositions": [
+          "JavaScript Online Notation",
+          "JavaScript Object Notation",
+          "Java Syntax Object Notation",
+          "JavaScript Operational Notation"
+        ],
+        "réponse": " JavaScript Object Notation",
+        "anecdote": "JSON signifie JavaScript Object Notation. C'est un format léger d'échange de données, facile à lire et à écrire pour les humains et facile à analyser et à générer pour les machines»."
+      },
+      {
+        "id": 2,
+        "question": "Quel type de données JSON ne supporte-t-il pas directement ?",
+        "propositions": [
+          "String",
+          "Array",
+          "Date",
+          "Object"
+        ],
+        "réponse": "Date",
+        "anecdote": "JSON ne supporte pas directement les types de données Date. Les dates sont généralement représentées sous forme de chaînes de caractères au format ISO 8601."
+
+
+      },
+      {
+        "id": 3,
+        "question": "Quel caractère est utilisé pour séparer les paires clé/valeur dans un objet JSON ?",
+        "propositions": [
+          "Virgule (,)",
+          "Point-virgule (;)",
+          "Deux-points (:)",
+          "Égal (=)"
+        ],
+        "réponse": "Égal (=)",
+        "anecdote": "En JSON, les paires clé/valeur dans un objet sont séparées par un deux-points (:)."
+      },
+      {
+        "id": 4,
+        "question": "Parmi les types de données suivants, lequel est supporté par JSON ?",
+        "propositions": [
+          "Function",
+          "Undefined",
+          "Symbol",
+          "Boolean"
+        ],
+        "réponse": "Boolean",
+        "anecdote": "JSON supporte les types de données de base suivants : string, number, object, array, boolean et null. Les fonctions, les valeurs undefined et les symboles ne sont pas des types de données valides en JSON."
+      },
+
+      {
+        "id": 5,
+        "question": "Quel type de données JSON peut contenir plusieurs valeurs de différents types ?",
+        "propositions": [
+          "String",
+          "Object",
+          "Array",
+          "Boolean"
+        ],
+        "réponse": "Array",
+        "anecdote": "En JSON, un tableau (array) est une liste ordonnée de valeurs entourée de crochets [ ]. Les éléments d'un tableau peuvent être de différents types, tels que des chaînes, des nombres, des objets, des tableaux, des booléens ou null."
+      },
+
+      {
+        "id": 6,
+        "question": "Quel mot-clé est utilisé en JSON pour représenter une valeur nulle ?",
+        "propositions": [
+          "none",
+          "undefined",
+          "null",
+          "nil"
+        ],
+        "réponse": "null",
+        "anecdote": "En JSON, le mot-clé null est utilisé pour représenter une valeur nulle ou vide."
+      },
+
+      {
+        "id": 7,
+        "question": "Quel est l'extension de fichier standard pour un fichier JSON ?",
+        "propositions": [
+          ".js",
+          ".txt",
+          ".json",
+          "xml"
+        ],
+        "réponse": ".json",
+        "anecdote": "Les fichiers JSON utilisent l'extension .json. Cette extension indique que le fichier contient des données au format JSON, qui peuvent être facilement interprétées par des applications et des langages de programmation."
+      },
+
+      {
+        "id": 8,
+        "question": "Comment un tableau JSON est-il représenté ?",
+        "propositions": [
+          "{ }",
+          "( )",
+          "< >",
+          "[ ]"
+        ],
+        "réponse": "[ ]",
+        "anecdote": "En JSON, un tableau est représenté par des crochets [ ], et il contient une liste ordonnée de valeurs."
+      },
+
+      {
+        "id": 9,
+        "question": "Quel caractère est utilisé pour entourer les clés et les valeurs de type chaîne dans un objet JSON ?",
+        "propositions": [
+          "JSON.parse()",
+          "JSON.stringify()",
+          "JSON.convert()",
+          "JSON.encode()"
+        ],
+        "réponse": "JSON.stringify()",
+        "anecdote": "La méthode JSON.stringify() est utilisée pour convertir un objet JavaScript en une chaîne JSON. "
+      },
+
+      {
+        "id": 10,
+        "question": "Quelle méthode JavaScript est utilisée pour convertir une chaîne JSON en objet JavaScript ?",
+        "propositions": [
+          "JSON.stringify()",
+          "JSON.parse()",
+          "JSON.decode()",
+          "JSON.convert()"
+        ],
+        "réponse": " JSON.parse()",
+        "anecdote": "La méthode JSON.parse() est utilisée pour convertir une chaîne JSON en un objet JavaScript."
+      }
+
+    ]
+
+  }
+
+}
+     
+      
+
+
+      

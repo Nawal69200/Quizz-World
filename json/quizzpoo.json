@@ -1,0 +1,131 @@
+{
+  "fournisseur": "OpenQuizzDB - Fournisseur de contenu libre (https://www.openquizzdb.org)",
+  "rédacteur": "Naceri Nacera",
+  "thème": "Programmation orientée objet",
+  "difficulté": "2 / 5",
+  "quizz": {
+    "débutant": [
+      {
+        "id": 1,
+        "question": "Qu'est-ce que la programmation orientée objet (POO) ?",
+        "propositions": [
+          "Basée sur les objets",
+          "Strictement procédurale.",
+          "Programmation linéaire ",
+          "Un objet peut être utilisé directement comme modèle pour créer une autre classe."
+        ],
+        "réponse": "Basée sur les objets",
+        "anecdote": "La POO favorise l'encapsulation, regroupant données et méthodes en une seule entité pour protéger et structurer le code."
+      },
+      {
+        "id": 2,
+        "question": "Question 2 : Quels sont les quatre principes fondamentaux de la POO ?",
+        "propositions": [
+          "Relations indépendantes ",
+          "Absence de structures",
+          "Encapsulation, Héritage, Polymorphisme, Abstraction",
+          "Absence de modularité"
+        ],
+        "réponse": "Encapsulation, Héritage, Polymorphisme, Abstraction",
+        "anecdote": "Ces principes permettent une meilleure organisation et réutilisation du code, ainsi qu'une modélisation fidèle des concepts du monde réel."
+      },
+      {
+        "id": 3,
+        "question": "Qu'est-ce qu'une classe et un objet en POO  ?",
+        "propositions": [
+          "Objet sans classe",
+          "Classe instanciable",
+          "Classe avec méthodes uniquement",
+          "Classe : modèle ; Objet : instance"
+        ],
+        "réponse": "Classe : modèle ; Objet : instance",
+        "anecdote": "Une classe définit les propriétés et comportements, tandis qu'un objet est une instance concrète de cette classe, comme une voiture spécifique dérivée du modèle 'Voiture'."
+      },
+      {
+        "id": 4,
+        "question": "Qu'est-ce que l'héritage en programmation orientée objet (POO) ?",
+        "propositions": [
+          "Copie sans relation",
+          "Sous-classe hérite super-classe",
+          "Méthodes identiques",
+          "Pas de spécialisation"
+        ],
+        "réponse": "Sous-classe hérite super-classe",
+        "anecdote": "L'héritage permet à une classe de dériver d'une autre, favorisant la réutilisation du code et la création de hiérarchies logiques."
+      },
+      {
+        "id": 5,
+        "question": "Quelle est la caractéristique principale de la POO qui permet de créer de nouvelles classes basées sur des classes existantes ?",
+        "propositions": [
+          "Polymorphisme",
+          "Héritage",
+          "Encapsulation",
+          "Abstraction"
+        ],
+        "réponse": "Héritage",
+        "anecdote": "L'héritage permet de réutiliser et d'étendre des classes existantes, favorisant ainsi la réutilisation du code."
+      },
+      {
+        "id": 6,
+        "question": "Quelle est la relation entre deux classes où une classe 'utilise' une instance de l'autre classe ?",
+        "propositions": [
+          "Association",
+          "Héritage",
+          "Composition",
+          "Agrégation"
+        ],
+        "réponse": "Association",
+        "anecdote": " L'association est une relation bidirectionnelle qui permet aux objets de différentes classes de communiquer entre eux."
+      },
+      {
+        "id": 7,
+        "question": "Quel concept POO permet de regrouper les données et les méthodes qui opèrent sur ces données au sein d'une même classe ?",
+        "propositions": [
+          "Polymorphisme",
+          "Encapsulation",
+          "Héritage",
+          "Abstraction"
+        ],
+        "réponse": "Encapsulation",
+        "anecdote": "L'encapsulation aide à protéger les données sensibles en ne les rendant accessibles que par des méthodes publiques."
+      },
+      {
+        "id": 8,
+        "question": "Comment appelle-t-on une classe qui ne peut pas être instanciée directement mais seulement héritée ?",
+        "propositions": [
+          "Classe finale",
+          "Classe statique",
+          "Classe abstraite",
+          "Interface"
+        ],
+        "réponse": "Classe abstraite",
+        "anecdote": "Une classe abstraite peut contenir des méthodes implémentées et non implémentées que les sous-classes doivent définir."
+      },
+      {
+        "id": 9,
+        "question": "Quelle est la relation où une classe 'possède' une instance d'une autre classe, indiquant une relation plus forte que l'association ?",
+        "propositions": [
+          "Composition",
+          "Héritage",
+          "Association",
+          "Agrégation"
+        ],
+        "réponse": "Composition",
+        "anecdote": "En composition, la durée de vie de l'objet dépend de l'objet qui le possède, contrairement à l'agrégation."
+      },
+      {
+        "id": 10,
+        "question": "Quel mot-clé est utilisé pour appeler le constructeur de la classe parente dans une classe dérivée ?",
+        "propositions": [
+          " this()",
+          " super()",
+          " base()",
+          " parent()"
+        ],
+        "réponse": " super()",
+        "anecdote": "Le mot-clé 'super()' permet d'appeler le constructeur de la classe parente pour initialiser les propriétés héritées."
+      }
+      
+    ]
+  }
+}
